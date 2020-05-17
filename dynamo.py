@@ -1,0 +1,15 @@
+t=int(input())
+while(t):
+	t=t-1
+	n=int(input())
+	A=int(input())
+	S=A+2*((10**n-1))+2
+	print(S,flush=True)
+	B=int(input())
+	C=(10**n-1)+1-B
+	print(C,flush=True)
+	D=int(input())
+	print(((10**n-1)+1-D),flush=True)
+	iii=int(input())
+	if(iii==-1):
+		break
