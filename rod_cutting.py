@@ -6,4 +6,4 @@ def rod_cutting(l):
 	
 	print(arr)
 
-rod_cutting(7)
+rod_cutting(8)

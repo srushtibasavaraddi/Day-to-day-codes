@@ -1,4 +1,5 @@
 def union(arr,u,v):
+	temp=arr[u]
 	for i in range(len(arr)):
 		if(arr[i]==arr[u]):
 			arr[i]=arr[v]
